@@ -1,3 +1,1 @@
-
-const socket = io();
-console.log("Connected to server");
+// Frontend React/Vue/Vanilla JS logic
