@@ -1,13 +1,18 @@
 
 {
-  "name": "discord-style-chat",
+  "name": "full-discord-clone",
   "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "private": true,
   "dependencies": {
-    "express": "^4.18.2",
-    "socket.io": "^4.7.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "socket.io-client": "^4.7.2",
+    "axios": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
   }
 }
